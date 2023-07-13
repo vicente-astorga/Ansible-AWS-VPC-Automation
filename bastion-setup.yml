@@ -51,8 +51,8 @@
           Name: "Bastion_host"
           Project: Vprofile
           Owner: DevOps Team
-        exact_count: 1
-        count_tag:
+        exact_count: 1 # create max 1 instance of this
+        count_tag: # if you have this tag one time, then it will not launch the instance again
           Name: "Bastion_host"
           Project: Vprofile
           Owner: DevOps Team
