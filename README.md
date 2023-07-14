@@ -10,6 +10,6 @@ The automated construction of the VPC is done with the Ansible Playbooks that co
 
 It start by configuring the VPC that has **three** public subnets and **three** private subnets in different zones. For public subnets, all outgoing traffic from the instances associated to its **route table** is routed through the **Principal Gateway.** For private subnets, the instances associated to its **route table** can access to Internet through the **NAT Gateway** (blocks incoming requests), which is located inside the public subnet. The creation of the **Nat Gateway** and the **Bastion host** is only done in the first subnet to avoid cost overruns.
 
-Within the private subnet there is a **Bastion host** (Jump server) with its corresponding security group that allows the connection to the internet to the instances in the private subnet of the same zone
+Within the private subnet there is a **Bastion host** (Jump server) with its corresponding security group that allows the connection to the internet to the instances in the private subnet of the same zone. This way it is possible to connect to the Bastion host via SSH and from there connect to the instances in the private subnet.
 
 ![Alt text](/files/diagrama.jpg "Image")
