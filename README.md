@@ -1,6 +1,6 @@
 ## Ansible AWS VPC Automation
 
-By automating the deployment of infrastructure in the cloud, we **save time** on manual and repetitive tasks and in this way we become more agile, which is our goal as DevOps.
+_By automating the deployment of infrastructure in the cloud, we save time on manual and repetitive tasks and in this way we become more agile, which is our goal as DevOps._
 
 ### **Setup**
 
