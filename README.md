@@ -2,7 +2,7 @@
 
 By automating the deployment of infrastructure in the cloud, we **save time** on manual and repetitive tasks and in this way we become more agile, which is our goal as DevOps.
 
-### **Infrastructure**
+### **Setup**
 
 The automated construction of the VPC is done with the Ansible Playbooks that contain the necessary variables, configurations and modules. These modules use Python BOTO which makes the API calls to the AWS cloud. The project runs from an EC2 instance (ansible 2.12.0 - python3) with its respective role.
 
